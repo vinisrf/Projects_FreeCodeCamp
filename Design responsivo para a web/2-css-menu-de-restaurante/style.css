@@ -1,0 +1,31 @@
+/*OUTRA FORMA DE É USAR UNIR TODOS ELEMENTOS QUE VÃO RECEBER A MESMA EDIÇÃO NUMA UNICA LINHA DE COMANDO
+EX: seletor1, selotor2 { propriedade: valor; */
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    /* Pense na margem como um espaço invisível em torno de um elemento. Usando essas duas propriedades de margem, centralize o elemento div dentro do elemento body. */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flavor{
+    text-align: left;
+}
+
+.price{
+    text-align: right;
+}
